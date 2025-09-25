@@ -1,0 +1,8 @@
+.garbage-container {
+    border: 5px dotted red;
+    height: 350px ;
+    width: 160px;
+    background: #d58787;
+    border-radius: 10px;
+    padding: 10px;
+}

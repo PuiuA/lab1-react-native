@@ -1,0 +1,54 @@
+.lowerDiv {
+    display: flex;
+    flex-direction: row;   /* pune componentele pe un rand */
+    gap: 20px;             /* spațiu între ele */
+    margin-top: 24px;
+    /*margin-left: -10px;*/
+    align-items: flex-start;
+}
+.upperDiv {
+    display: flex;
+    flex-direction: row;   /* pune componentele pe un rand */
+    gap: 20px;             /* spațiu între ele */
+    margin-top: 24px;
+    align-items: flex-start;
+}
+.btnReset {
+    padding: 6px 10px;
+    border: 1px solid #c33;
+    background: #fff;
+    color: #c33;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btnReset:hover { background: #ffeaea; }
+
+.win {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.win__box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px 18px;
+    width: 320px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+}
+
+.win__btn {
+    margin-top: 10px;
+    padding: 6px 12px;
+    border: 1px solid #2a7a2a;
+    color: #2a7a2a;
+    background: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.win__btn:hover { background: #f4fff4; }
